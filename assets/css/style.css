@@ -1,0 +1,206 @@
+
+
+.primary-color{
+    color: #3f33ff;
+}
+.primary-bg-color{
+    background-color: #3f33ff;
+    color: #fff;
+}
+.text-secondary{
+    color: #b4bbc8;
+}
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src:  url('../fonts/nunito/Nunito-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nunito-Bold';
+  src:  url('../fonts/nunito/Nunito-Bold.ttf') format('truetype');
+}
+
+.nun-400{
+  font-family: 'Nunito-Regular';
+     font-weight: 700; 
+    font-size: 17px;
+    color: #b4bbc8;
+}
+.nun-700{
+    font-family: 'Nunito-Bold';
+    font-weight: 700; 
+    color: #fff;
+    font-size: 37px;
+    line-height: 40px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 20px;
+}
+header .menu-items ul{
+    display: flex;
+  align-items: center;
+}
+header .menu-items ul li a , header .menu-items ul li i { 
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    margin: 0px 20px;
+}
+.pt-100 {
+    padding: 100px 150px; 
+}
+
+.hero-text h4{
+color: #fff;
+}
+.hero-image {
+    position: relative;
+}
+.hero-image .character img{
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+}
+.hero-image .image-3{
+    position: relative;
+    right: 30%;
+}
+svg { 
+display: inline-block; 
+position: absolute; 
+top: 0; 
+left: 0; 
+z-index: -1; 
+} 
+.container-fluid { 
+    display: inline-block; 
+    position: absolute; 
+    width: 100%; 
+    padding-bottom: 100%; 
+    vertical-align: middle; 
+    overflow: hidden; 
+    top: 0; 
+    left: 0; 
+} 
+.section-content.features-content .feature-item *{
+text-align: center;
+margin-bottom: 20px;
+}
+.section-content.features-content .feature-item h4{
+    font-size: 22px;
+    color: #3f4247;
+   font-family: 'Nunito-Bold';
+    font-weight: 700;
+}
+.section-content .caption-text{
+    color: #6f7581;
+    font-size: 18px;
+    font-weight: 700;
+   font-family: 'Nunito-Bold';
+    margin-bottom: 20px;
+}
+.section-content .heading-text{
+    font-size: 43px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 20px;
+}
+ .section-content p{
+   font-family: 'Nunito-Regular';
+    font-size: 17px;
+    color: #6f7581;
+   line-height: 40px;
+   margin-bottom: 20px;
+ }      
+.pricing-content {
+    background-color: #f8f8ff;
+    font-family: 'Nunito-Regular';
+}
+.pricing-content .pricing-plan .pricing-item{
+    padding: 80px 20px;   
+}
+.pricing-content .plan-name{
+    color: #6f7581;
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: 700;  
+}
+.pricing-content .price{
+    font-size: 75px;
+    margin-bottom: 20px;
+    font-weight: 700;  
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+.pricing-content a.btn-md{
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 40px;
+    background-color: #eaeafd;
+}
+.news-letter-section .blogs-container{
+    padding: 80px 0px;
+}
+.news-letter-section .blogs-container .card{
+    background-color: #fff !important;
+}
+.news-letter-section .images-container {
+    padding: 50px 0px;
+}
+.news-letter-section .heading-content{
+    padding: 0px 250px;
+}
+.news-letter-section .heading-content h2{
+       font-family: 'Nunito-Bold';
+       font-weight: 700;
+       font-size: 40px;
+       line-height: 60px;  
+}
+.news-letter-section .heading-content form{
+    margin: 40px 0px;
+}
+footer {
+     background-color: #f8f8ff;
+     font-family: 'Nunito-Regular';
+}
+footer h4{
+   
+  color: #000;
+  font-size: 22px;
+  width: 400px;
+  line-height: 30px;
+  margin: 30px 0px;
+}
+footer h5{
+  font-weight: 700 ;  
+  color: #000;
+}
+footer ul li {
+    font-size: 17px;
+    margin: 20px 0px;
+    color: #6f7581;
+    font-weight: 400;
+}
+ @media (max-width:768px){
+   html,body{
+       overflow-x: hidden;
+   }
+    .pt-100 {
+    padding: 50px 30px; 
+    } 
+    
+    .section-content .caption-text{
+          font-size: 16px;
+    }
+    .section-content .heading-text{
+         font-size: 25px;
+    }
+    .news-letter-section .heading-content {
+    padding: 0px 50px;
+}
+ }
